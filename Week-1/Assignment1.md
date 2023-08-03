@@ -24,6 +24,7 @@ Here's a brief overview of how the protocol stack is used in web development:
 Web servers are software applications or programs that handle incoming requests from clients and deliver web content in response.
 
 Differnt typers of web servres are:-
+
 1.Apache HTTP Server (Apache):-Apache is one of the most popular and widely used web servers. It's open-source and supports a wide range of 
                               platforms. Apache is known for its flexibility, modularity, and extensive configuration options. It supports 
                               various programming languages and technologies through modules, making it suitable for a wide range of web 
@@ -36,8 +37,7 @@ Differnt typers of web servres are:-
                     content. It's often used as a reverse proxy server or a load balancer in front of application servers.
 
 ```sh                             
-- Functionality: Nginx is excellent at serving static content and can efficiently handle proxying, load balancing, and caching. It is often 
-               used to offload processing from application servers
+- Functionality: Nginx is excellent at serving static content and can efficiently handle proxying, load balancing, and caching. It is often used to offload processing from application servers
 - Performance: Nginxs event-driven, asynchronous architecture makes it highly efficient for serving static content and handling a large number of concurrent connections. However, it might not be as feature-rich as Apache when it comes to handling dynamic content.
 ```
 
@@ -58,11 +58,10 @@ Differnt typers of web servres are:-
 
 5.Caddy: Caddy is a modern web server that emphasizes ease of use and automation. It simplifies the process of setting up HTTPS and offers 
         automatic SSL certificate provisioning.
-        
+
 ```sh                              
 - Functionality: Caddy aims to provide a user-friendly experience, making it easy to configure and manage. It supports automatic HTTPS, HTTP/2, and easy setup of reverse proxies.
-- Performance: Caddy's performance is competitive, and its focus on automation and simplicity can be appealing for developers seeking ease 
-              of use.
+- Performance: Caddy performance is competitive, and its focus on automation and simplicity can be appealing for developers seeking ease of use.
 ```
 
 ## What is web hosting, and what are the different types of hosting services available for websites?
