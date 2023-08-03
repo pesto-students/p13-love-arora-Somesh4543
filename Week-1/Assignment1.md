@@ -6,10 +6,11 @@
 Here's a brief overview of how the protocol stack is used in web development:
 
 -Application Layer: This is the top layer of the protocol and finds various protocols that chater to specific service and application on internet
+
     ```sh
-    HTTP: Used for accessing webpages and browsing the world wide web.
-    DNS: Translate human readable names to IP address.
-    TLS:Encrypts data for secure transmission, ensuring privacy and security for sensitive information.
+    - HTTP: Used for accessing webpages and browsing the world wide web.
+    - DNS: Translate human readable names to IP address.
+    - TLS:Encrypts data for secure transmission, ensuring privacy and security for sensitive information.
     ```
 
 -Transport Layer: Data on the internet is divided into small packets for efficient transmission. The Transport Layer manages the reliable and orderly delivery of these packets. TCP (Transmission Control Protocol) ensures data is delivered accurately, while UDP (User Datagram Protocol) provides faster but less reliable communication.
@@ -28,35 +29,39 @@ Differnt typers of web servres are:-
                               various programming languages and technologies through modules, making it suitable for a wide range of web 
                               applications.
 ```sh                              
--Functionality: Apache supports virtual hosting, URL rewriting, authentication, and SSL/TLS encryption. It can handle dynamic content through modules like mod_php for PHP support.
--Performance: Apache is robust and reliable, but in terms of raw performance and handling a high number of concurrent connections, it may not be as efficient as some other web servers like Nginx or LiteSpeed.
+- Functionality: Apache supports virtual hosting, URL rewriting, authentication, and SSL/TLS encryption. It can handle dynamic content through modules like mod_php for PHP support.
+- Performance: Apache is robust and reliable, but in terms of raw performance and handling a high number of concurrent connections, it may not be as efficient as some other web servers like Nginx or LiteSpeed.
 ```
 2.Nginx (Engine X): Nginx is known for its high performance and efficiency, particularly in handling concurrent connections and static 
                     content. It's often used as a reverse proxy server or a load balancer in front of application servers.
+
 ```sh                             
--Functionality: Nginx is excellent at serving static content and can efficiently handle proxying, load balancing, and caching. It's often 
+- Functionality: Nginx is excellent at serving static content and can efficiently handle proxying, load balancing, and caching. It is often 
                used to offload processing from application servers
--Performance: Nginx's event-driven, asynchronous architecture makes it highly efficient for serving static content and handling a large number of concurrent connections. However, it might not be as feature-rich as Apache when it comes to handling dynamic content.
+- Performance: Nginxs event-driven, asynchronous architecture makes it highly efficient for serving static content and handling a large number of concurrent connections. However, it might not be as feature-rich as Apache when it comes to handling dynamic content.
 ```
 
 3.Microsoft Internet Information Services (IIS):-IIS is a web server developed by Microsoft and is commonly used in Windows environments. It integrates well with other Microsoft technologies like ASP.NET and provides a graphical user interface for management.
+
 ```sh                              
--Functionality: IIS supports ASP.NET, .NET applications, and other Microsoft-specific technologies. It provides features like authentication, URL rewriting, and SSL/TLS support.
--Performance: IIS is optimized for Windows environments and is capable of handling dynamic content efficiently. However, its performance might be influenced by the underlying Windows operating system.
+- Functionality: IIS supports ASP.NET, .NET applications, and other Microsoft-specific technologies. It provides features like authentication, URL rewriting, and SSL/TLS support.
+- Performance: IIS is optimized for Windows environments and is capable of handling dynamic content efficiently. However, its performance might be influenced by the underlying Windows operating system.
 ```
 
 4.LiteSpeed Web Server:LiteSpeed is designed for high performance and efficiency. It offers features like LiteSpeed Cache, which can 
                        significantly improve website load times.
+
 ```sh                              
--Functionality: LiteSpeed is known for its speed and scalability. It supports features like caching, load balancing, and HTTP/2 support.
--Performance: LiteSpeed is highly performant, especially in terms of serving static and dynamic content efficiently. Its caching capabilities contribute to improved performance.
+- Functionality: LiteSpeed is known for its speed and scalability. It supports features like caching, load balancing, and HTTP/2 support.
+- Performance: LiteSpeed is highly performant, especially in terms of serving static and dynamic content efficiently. Its caching capabilities contribute to improved performance.
 ```
 
 5.Caddy: Caddy is a modern web server that emphasizes ease of use and automation. It simplifies the process of setting up HTTPS and offers 
         automatic SSL certificate provisioning.
+        
 ```sh                              
--Functionality: Caddy aims to provide a user-friendly experience, making it easy to configure and manage. It supports automatic HTTPS, HTTP/2, and easy setup of reverse proxies.
--Performance: Caddy's performance is competitive, and its focus on automation and simplicity can be appealing for developers seeking ease 
+- Functionality: Caddy aims to provide a user-friendly experience, making it easy to configure and manage. It supports automatic HTTPS, HTTP/2, and easy setup of reverse proxies.
+- Performance: Caddy's performance is competitive, and its focus on automation and simplicity can be appealing for developers seeking ease 
               of use.
 ```
 
