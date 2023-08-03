@@ -110,18 +110,18 @@ SEO, or Search Engine Optimization, is the practice of optimizing a website or o
 search engine results pages. The goal of SEO is to increase organic traffic to a website by making it more relevant and authoritative in 
 the eyes of search engines like Google, Bing, and others.
 
- -Keyword Research: Use keyword research tools to find relevant and popular keywords related to the blog's content.
+ - Keyword Research: Use keyword research tools to find relevant and popular keywords related to the blog's content.
 
- -Optimize Content: Incorporate the selected keywords naturally into the blog posts' titles, headings, and content. Ensure the blog's 
+ - Optimize Content: Incorporate the selected keywords naturally into the blog posts' titles, headings, and content. Ensure the blog's 
                     content is informative, engaging, and valuable to readers.
 
- -Meta Tags and Descriptions: Create compelling meta tags and descriptions for each blog post, as these elements appear in search engine 
+ - Meta Tags and Descriptions: Create compelling meta tags and descriptions for each blog post, as these elements appear in search engine 
                     results and can influence click-through rates.
 
- -Submit Sitemap: Submit the blog's sitemap to Google and Bing Webmaster Tools to ensure search engines can crawl and index the pages 
+ - Submit Sitemap: Submit the blog's sitemap to Google and Bing Webmaster Tools to ensure search engines can crawl and index the pages 
                     efficiently.         
 
- -Measure and Analyze: Use Google Webmaster Tools and Bing Webmaster Tools to monitor the blog's performance, track search queries, and 
+ - Measure and Analyze: Use Google Webmaster Tools and Bing Webmaster Tools to monitor the blog's performance, track search queries, and 
                     identify any issues that need attention.                   
 
 
