@@ -33,7 +33,7 @@ Differnt typers of web servres are:-
 - Functionality: Apache supports virtual hosting, URL rewriting, authentication, and SSL/TLS encryption. It can handle dynamic content through modules like mod_php for PHP support.
 - Performance: Apache is robust and reliable, but in terms of raw performance and handling a high number of concurrent connections, it may not be as efficient as some other web servers like Nginx or LiteSpeed.
 ```
-2.Nginx (Engine X): Nginx is known for its high performance and efficiency, particularly in handling concurrent connections and static 
+2.Nginx(Engine X): Nginx is known for its high performance and efficiency, particularly in handling concurrent connections and static 
                     content. It's often used as a reverse proxy server or a load balancer in front of application servers.
 
 ```sh                             
