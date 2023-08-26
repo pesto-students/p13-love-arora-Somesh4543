@@ -1,0 +1,23 @@
+:root {
+    --table-color: forestgreen;
+    --row-bg-color: honeydew;
+    font-family: Calibri, Myriad;
+ }
+ 
+#game-table{
+    border: 1px solid var(--table-color);
+    text-align: center;
+    height: 200px;
+    width: 400px;
+}
+
+#game-table caption{
+    text-transform: uppercase;
+    background: var(--table-color);
+    padding: 10px;
+    color: white;
+}
+
+#game-table tr:nth-child(even){
+    background-color: var(--row-bg-color);
+}

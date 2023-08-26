@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale">
+        <title>Assingment2.1.1</title>
+        <!-- <link rel="stylesheet" href="Assingment2.1.1.css"> -->
+        <style>
+            label {
+                display: inline-block;
+                width: 150px;
+                vertical-align: top;
+                padding: 10px;
+            }
+            input[type="text"],
+            input[type="email"],
+            textarea {
+                width: 300px;
+                padding: 5px;
+            }
+            textarea {
+                resize: vertical;
+                width: 600px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="submit_url_here" method="post" enctype="multipart/form-data">
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div>
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="about">About</label>
+                <textarea id="about" name="about" rows="3" cols="30" required></textarea>
+            </div>
+            <div>
+                <label for="picture">Profile picture:</label>
+                <input type="file" id="picture" name="picture">
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>
